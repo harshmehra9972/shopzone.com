@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
   
-<style>
+    <style>
+
 body{
   align-items: center;
+  background-color: rgb(252, 252, 252);
 }
+
 a
 {
   text-decoration: none;
 }
+header
+{
+    background: #fff;
+    box-shadow: 3px 3px 12px #22222214;
+    position: relative;
+     text-align: center;
+}
+
 header ul
 {
   text-align: center;
@@ -26,19 +34,8 @@ header ul
 justify-content: space-between;
 }
 
-header
-{
-  background-color: aqua;
-  height: 150px;
-  box-shadow: 1px -5px 16px 0px;
-  
-}
 
-.header-button
-{
-  
-    border-radius: 6px;
-}
+
 header li{
   text-decoration: none;
 }
@@ -46,83 +43,495 @@ header li{
 header
 {
   text-align: center;
+  position: relative;
 }
-.card-cate button:hover
+@media (max-width: 768px)
 {
-background-color: goldenrod;
+    
+#header ul {
+    grid-template-columns: 100%;
+}
+}
 
+
+.search{
+  height: 2rem; width: 30rem;
 }
-.card-cate button
+.card
 {
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 7px 7px rgb(234, 198, 198);
+  font-family: sans-serif;
 }
-.card 
+.card:hover{
+  box-shadow: 0px 5px 5px 1px rgb(229, 149, 149);
+}
+.card-img-top
 {
-  border-radius: 20px;
+  width: 4rem;
+  padding: 0.5rem;
+  
 }
-.card img 
+.card-img-top1
 {
-  border-radius: 20px;
+  width: 3rem;
+  padding: 1rem;
+  
 }
-.card:hover
+.card-img-top4
 {
-  box-shadow: 0px 7px 7px black;
+  width: 5rem;
+  
+  
 }
-.card-body
+.card1
 {
   text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 7px 7px rgb(234, 198, 198);
+  font-family: sans-serif;
+  background-color: white;
 }
-
-</style>
-
+.card1:hover{
+  box-shadow: 0px 5px 5px 1px rgb(229, 149, 149);
+}
+.card-img-top2
+{
+  width: 12rem;
+  padding: 1rem;
   
+}
+.card3
+{
+text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 7px 7px 3px rgb(234, 198, 198);
+  font-family: sans-serif;
+}
+.card3:hover{
+  box-shadow: 0px 5px 5px 1px rgb(229, 149, 149);
+}
+.card-text
+{
+  font: 20px;
+}
+.student
+{
+  color: white;
+ background-image: url(laptopimg/01.webp);
+ width: 95%;
+  height: 240px;
+  border-radius: 13px;
+}
+.student1
+{
+  color: white;
+ background-image: url(laptopimg/01.webp);
+ width: 95%;
+  height: 240px;
+  border-radius: 13px;
+}
+.student2
+{
+  margin-top: 20px;
+  color: white;
+ background-image: url(laptopimg/01.webp);
+ width: 95%;
+   height: 240px;
+  border-radius: 13px;
+}
+.student3
+{
+  margin-top: 20px;
+  color: white;
+ background-image: url(laptopimg/01.webp);
+ width: 95%;
+  height: 240px;
+  border-radius: 13px;
+}
+    </style>
 </head>
 <body>
+    <!-- <link rel="import" href="header.html"> -->
 
-  <header>
-    <div style="width: 80%; text-align: center; margin: auto;" >
-  <div style="display: flex; justify-content: space-between; padding: 2rem; ">
-   <a href="index.html"> <img src="img/logo.avif" alt="" height="57%"></a>
-    <div >    <form action="#" >
-      <input type="text" placeholder="Search.." name="search" style="width: 396px; height: 30px;">
-      <button type="submit" class="header-button">search</i></button>
-    </form> </div>
-    <div style=" font-size: 20px; margin:0;"> <a href="account.html" style="color: black;"> Login</a></div>
+
+    <header >
+      <div style="background-color: rgb(0, 102, 169); width: auto; color: white;padding: 1rem;">
+        <div> <strong>For B2B or Bulk Enquiries please reach out to us on +91 9035009233</strong>  <br>
+          <br>
+
+       <strong>  Are you confused with what to buy ? Get a free consultation on +91 9026265699</strong> </div>
+       
+    </div>
+    <marquee  direction="left"> National Stock Exchange(NSE)||  NewJaisa Technologies   <span style="color: green;"> 128.40</span> <span style="color: red;">  -3.45 ( -2.76%) </span> (Last Updated 6-2-2024 / 3:30 PM)</marquee>  
+
+    <div style="width: 70%; margin: auto;" >
+     
+
+
+
+
+        <div style="justify-content: space-between; display: flex; flex-direction: row; width: 100%;" >
+      <div style="width:5rem;"> 
+      
+      <a href="index.html"> <img src="img/logo.avif" alt="" height="100%" style="width: 10rem;" ></a>  </div>
+      <div>
+        <input type="text" placeholder="search.." class="search">
+        <button>search</button>
+      </div>
+      <div>
+    
+ <a href="account.html" style="color: black;"> Login</a>
+</div>    </div>
+    </div>
+      <nav style=" width: 70%; margin: auto; padding: 2rem 0rem 0.5rem 1rem; ">
+        <ul>
+          <li>  <a href="index.html" style="color: black;">All Products</a></li>
+          <li>  <a href="chormepc.html" style="color: black;">Chrome PCs</a></li>
+          <li>  <a href="moniter.html" style="color: black;">Monitors</a></li>
+          <li>  <a href="laptop.html" style="color: black;">Laptops</a></li>
+          <li> <a href="Desktops.html" style="color: black;">Desktops</a></li>
+          <li> <a href="Accesories.html" style="color: black;">Accesories</a></li>
+          <li> <a href="Investors.html" style="color: black;">Investors</a></li>
+          <li> <a href="Desktops.html" style="color: black;">Desktops</a></li>
+          <li> <a href="Accesories.html" style="color: black;">Accesories</a></li>
+          <li> <a href="Investors.html" style="color: black;">Investors</a></li>
+        </ul>   
+      </nav>
+
+    </header>
+
+    <main>
+      <section>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style=" padding: 5rem;margin: auto; border-radius: 30px;">
+        <div class="carousel-inner" style="border-radius: 20px;">
+          <div class="carousel-item active">
+            
+            <img src="img/lb2.77f4966c.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Banner_1600x600_a050e800-3b82-4979-87e2-4b452fec1c0d.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/lb1.4b203192.jpg  " class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+  <section style="display: flex; justify-content: center;  margin: auto;">
+
+    <div >
+      <img src="img/counterImg01.svg" alt="" height="50%">
+    </div>
+    <div>
+    <p style=" background-color: lightgray; width: 6rem; text-align: center; border-radius: 4px;">87 ,4444</p>
+    <h4>Products Sold</h4>
+    </div>
+    
+    <div>
+      <img src="img/counterImg02.svg" alt="" height="50%">
+    </div>
+    <div>
+    <p style="background-color: lightgray; width: 7rem; text-align: center; border-radius: 4px;">₹ 874,450,00</p>
+    <h4   >Saved</h4>
+    </div>
+    <div>
+      <img src="img/counterImg03.svg" alt="" height="50%">
+    </div>
+    <div>
+      <p style="background-color: lightgray; width: 9rem; text-align: center; border-radius: 4px;">18,888,120 Tons</p>
+    <h4   >Co2 reduced</h4>
+    </div>
+    </section>
+    </section>
+
+  
+
+
+    <section style="background-color: rgb(242, 242, 242); text-align: center;padding: 3rem; font-family: sans-serif;">
+
+      <p style="font-size: 3rem; ">  Old is the new <span style="color: rgb(175, 146, 243);">New</span></p>
+      <p style="font-size: 3rem;">Join the <span style="color: rgb(94, 223, 68);"> Green</span> Techovution.. Its happening Now!</p>
+  
+      <div style="display: flex; justify-content: center; justify-content: space-around;padding: 6rem;">
+      <div class="card" style="width: 21rem;">
+        <div class="card-body">
+          <h2 class="card-title">8 Out of 10</h2>
+          <p>Desktops Sold Online are Now</p>
+          <p style="color: rgb(123, 186, 235);">Preloved</p>
+
+        </div>
+      </div>
+  
+      <div class="card" style="width: 21rem;">
+        <div class="card-body">
+          <h2 class="card-title">20X</h2>
+          <p>Times Faster <span style="color:rgb(70, 67, 244) ;"> Refurb</span> Units are</p>
+          <p>selling than new</p>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 21rem;">
+        <div class="card-body">
+          <h2 class="card-title">Every 3 rd</h2>
+          <p>Laptop Sold Online is Now</p>
+          <p style="color: orange;">UpCycled</p>
+        </div>
+      </div>
+    </div>
+  
+      </section>
+      <hr>
+
+
+<section style="display: block; padding: 2rem; background-color:  rgb(242, 242, 242);">
+  <img src="desktop/Pocket_Friendly_new_a367c739-e32c-4dbf-b80f-5384ede2d03d.webp" alt="" width="70%" height="100%" style=" box-shadow: 0px 5px 20px 0px rgb(34 34 34 / 22%);
+  border-radius: 8px; margin-left: 15%;">
+</section>
+<hr>
+
+<section style="background-color:  rgb(242, 242, 242); padding: 12rem;">
+
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+
+  <div style="font-size: 35px;">
+   <strong style="color: rgb(32, 225, 32);">5</strong>  Reasons,<strong style="color: rgb(12, 174, 237);">You can’t <br>Say No</strong>  to  <strong>NewJaisa</strong>
   </div>
-  <nav>
-    <ul>
-      <li>  <a href="index.html" style="color: black;">All Products</a></li>
-      <li>  <a href="chormepc.html" style="color: black;">Chrome PCs</a></li>
-      <li>  <a href="moniter.html" style="color: black;">Monitors</a></li>
-      <li>  <a href="laptop.html" style="color: black;">Laptops</a></li>
-      <li> <a href="Desktops.html" style="color: black;">Desktops</a></li>
-      <li> <a href="Accesories.html" style="color: black;">Accesories</a></li>
-      <li> <a href="Investors.html" style="color: black;">Investors</a></li>
-    </ul>
- 
- 
- 
+    <div class="card1" style="width: 21rem;">
+      <img src="desktop/Scratchless img.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">Scratchless</h2>
+          <p>Unit Guarantee</p>
+        </div>
+      </div>
+  
+      <div class="card1" style="width: 21rem;">
+      <img src="desktop/Lowest price img.png" class="card-img-top1" alt="...">
+                <div class="card-body">
+          <h2 class="card-title">Lowest Price</h2>
+                 <p>Guarantee</p>
+        </div>
+      </div>
+      <div class="card1" style="width: 21rem; margin-top: 20px;">
+        <img src="desktop/30 Days Return img.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">14 Days Return</h2>
+                    <p>(No Questions Asked)</p>
+        </div>
+      </div>
 
-  </nav>
+      <div class="card1" style="width: 21rem;margin-top: 20px;">
+        <img src="desktop/1 Warranty.png" class="card-img-top1" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">Year</h2>
+                 <p>Warranty</p>
+        </div>
+      </div>
+
+      <div class="card1" style="width: 21rem; margin-top: 20px;">
+        <img src="desktop/Lifetime buyback img.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">Lifetime Buyback</h2>
+           <p>Guarantee</p>
+        </div>
+      </div>
+    </div>
+ 
+</section>
+<hr>
+
+<section style="margin: auto; padding: 8rem; width: 100%; text-align: center;">
+
+<h1 style="font-family: sans-serif; width: 100%;">Red Hot... Moving Fast... Check our <span style="color: #70ef0ff0;">bestsellers</span> </h1>
+<div style="padding: 5rem;">
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;">
+  <div class="card3" style="width: 16rem;">
+    <img src="img/Untitleddesign_3_5708d03a-94e3-4a88-865e-7822252d9c9c_1000x1000.webp" class="card-img-top2" alt="..." height="63%">
+    <div class="card-body">
+      <p class="card-text"><strong>HP Chromebox Mini PC</strong></p>
+      <div style="display: flex; justify-content: center;">
+      <div style="border-right:5px black;">
+        <img src="img/logo.avif" class="card-img-top4" alt="..."> 
+      </div>
+      <div>
+      <img src="desktop/603px-Amazon_logo.svg" class="card-img-top" alt="...">
+    </div>
+  </div>
+    </div>
+  </div>
+
+  <div class="card3" style="width: 16rem;">
+    <img src="laptopimg/dell2.webp" class="card-img-top2" alt="..." height="63%">
+    <div class="card-body">
+      <p class="card-text"><strong>Dell Latitude I5-8th Gen</strong></p>
+        
+      <div style="display: flex; justify-content: center;">
+      <div style="border-right:5px black;">
+        <img src="img/logo.avif" class="card-img-top4" alt="..."> 
+      </div>
+      <div>
+      <img src="desktop/603px-Amazon_logo.svg" class="card-img-top" alt="...">
+    </div>
+  </div>
+    </div>
+  </div>
+
+  <div class="card3" style="width: 16rem;">
+    <img src="laptopimg/hp.webp" class="card-img-top2" alt="..." height="63%">
+    <div class="card-body">
+      <p class="card-text"><strong>HP Chromebook | i5-10th Gen </strong></p>
+    
+      <div style="display: flex; justify-content: center;">
+      <div style="border-right:5px black;">
+        <img src="img/logo.avif" class="card-img-top4" alt="..."> 
+      </div>
+      <div>
+      <img src="desktop/603px-Amazon_logo.svg" class="card-img-top" alt="...">
+    </div>
+  </div>
+    </div>
+  </div>
+
+  <div class="card3" style="width: 16rem;">
+    <img src="laptopimg/acer1.jpg" class="card-img-top2" alt="..." height="63%">
+    <div class="card-body">
+      <p class="card-text"><strong>Acer Chromebook | I5-8th Gen </strong></p>
+      <div style="display: flex; justify-content: center;">
+      <div style="border-right:5px black;">
+        <img src="img/logo.avif" class="card-img-top4" alt="..."> 
+      </div>
+      <div>
+      <img src="desktop/603px-Amazon_logo.svg" class="card-img-top" alt="...">
+    </div>
+  </div>
+    </div>
+  </div>
+
 </div>
+</div>
+</section>
 
-</header>
-<main>
+<hr>
+
+
+
+<section style="margin: auto; padding: 6rem; width: 100%; text-align: center;">
+
+  <h1 style="font-family: sans-serif; width: 100%;">New <span style="color: #56b50ef0;">arrivals</span> </h1>
+  <div style="padding: 5rem;">
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;">
+    <div class="card3" style="width: 16rem;">
+      <img src="img/acer.webp" class="card-img-top2" alt="..." height="63%">
+      <div class="card-body">
+        <p class="card-text"><strong>HP Chromebox Mini PC</strong></p>
+        <div style="display: flex; justify-content: center;">
+        <div style="border-right:5px black;">
+          <img src="img/logo.avif" class="card-img-top4" alt="..."> 
+        </div>
+        <div>
+        <img src="desktop/603px-Amazon_logo.svg" class="card-img-top" alt="...">
+      </div>
+    </div>
+      </div>
+    </div>
+  
+    <div class="card3" style="width: 16rem;">
+      <img src="desktop/des5.webp" class="card-img-top2" alt="..." height="63%">
+      <div class="card-body">
+        <p class="card-text"><strong>Dell OptiPlex Full Set </strong></p>
+        <div style="display: flex; justify-content: center;">
+        <div style="border-right:5px black;">
+          <img src="img/logo.avif" class="card-img-top4" alt="..."> 
+        </div>
+        <div>
+        <img src="desktop/603px-Amazon_logo.svg" class="card-img-top" alt="...">
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="card3" style="width: 16rem;">
+      <img src="laptopimg/acer1.jpg" class="card-img-top2" alt="..." height="63%">
+      <div class="card-body">
+        <p class="card-text"><strong>Acer Chromebook | I5-8th Gen </strong></p>
+        <div style="display: flex; justify-content: center;">
+        <div style="border-right:5px black;">
+          <img src="img/logo.avif" class="card-img-top4" alt="..."> 
+        </div>
+        <div>
+        <img src="desktop/603px-Amazon_logo.svg" class="card-img-top" alt="...">
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="card3" style="width: 16rem;">
+      <img src="desktop/des3.webp" class="card-img-top2" alt="..." height="63%">
+      <div class="card-body">
+        <p class="card-text"><strong>Dell OptiPlex Full Set | I5-3rd Gen </strong></p>
+        <div style="display: flex; justify-content: center;">
+        <div style="border-right:5px black;">
+          <img src="img/logo.avif" class="card-img-top4" alt="..."> 
+        </div>
+        <div>
+        <img src="desktop/603px-Amazon_logo.svg" class="card-img-top" alt="...">
+      </div>
+    </div>
+      </div>
+    </div>
+  
+  </div>
+  </div>
+  </section>
+  
+  <hr>
+
+
+<section>
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style=" padding: 5rem;margin: auto; border-radius: 30px;">
     <div class="carousel-inner" style="border-radius: 20px;">
       <div class="carousel-item active">
         
-        <img src="img/lb2.77f4966c.jpg" class="d-block w-100" alt="...">
+        <img src="desktop/1.webp" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
         
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/Banner_1600x600_a050e800-3b82-4979-87e2-4b452fec1c0d.webp" class="d-block w-100" alt="...">
+        <img src="desktop/2.webp" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="img/lb1.4b203192.jpg  " class="d-block w-100" alt="...">
+        <img src=" desktop/3.webp " class="d-block w-100" alt="...">
       </div>
+      <div class="carousel-item">
+        <img src=" desktop/4.webp " class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src=" desktop/5.webp " class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src=" desktop/6.webp " class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src=" desktop/7.webp " class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src=" desktop/9.webp " class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src=" desktop/10.webp " class="d-block w-100" alt="...">
+      </div>
+
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -133,226 +542,100 @@ background-color: goldenrod;
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+</section>
 
-  <section style="display: flex; justify-content: center;  margin: auto;">
 
-<div >
-  <img src="img/counterImg01.svg" alt="" height="50%">
-</div>
-<div>
-<p>87 ,4444</p>
-<h4   >Products Sold</h4>
+<section style="margin: auto; padding: 15rem; width: 100%; background-color:  rgb(242, 242, 242);" >
+  <div style="display: grid; grid-template-columns: 1fr 1fr ;">
+<div class="student">
+  <h2 style="margin-left: 9%;padding: 1rem;">student laptops at <br>low price</h2>
+  <button style="    margin-left: 13%; padding: 0.5rem 1rem 1rem;background-color: #5b5bf8; border-radius: 10px;">Shop Now</button>
 </div>
 
-<div>
-  <img src="img/counterImg02.svg" alt="" height="50%">
+<div class="student1">
+  <h2 style="margin-left: 9%;padding: 1rem;">student laptops at <br>low price</h2>
+  <button style="    margin-left: 13%; padding: 0.5rem 1rem 1rem;background-color:  #5b5bf8; border-radius: 10px;">Shop Now</button>
 </div>
-<div>
-<p>₹ 874,450,00</p>
-<h4   >Saved</h4>
+
+<div class="student2">
+  <h2 style="margin-left: 9%;padding: 1rem;">student laptops at <br>low price</h2>
+  <button style="    margin-left: 13%; padding: 0.5rem 1rem 1rem;background-color:  #5b5bf8; border-radius: 10px;">Shop Now</button>
 </div>
-<div>
-  <img src="img/counterImg03.svg" alt="" height="50%">
+
+<div class="student3">
+  <h2 style="margin-left: 9%;padding: 1rem;">student laptops at <br>low price</h2>
+  <button style="    margin-left: 13%; padding: 0.5rem 1rem 1rem;background-color:  #5b5bf8; border-radius: 10px;">Shop Now</button>
 </div>
-<div>
-  <p>18,888,120 Tons</p>
-<h4   >Co2 reduced</h4>
-</div>
+
+
+  </div>
 </section>
 
 
 
-<section style="background-color: rgb(148, 182, 224); color: black; font-size: 37px; text-transform: uppercase; text-align: center;">
-Top category
-</section>
-</main>
- 
-<section class="card-cate" style="display: grid; grid-template-columns: 29%; display: flex; justify-content: center; justify-content: space-between; padding: 5rem;"> 
-  <div class="card" style="width: 18rem;">
-    <img src="img/Untitleddesign_3_5708d03a-94e3-4a88-865e-7822252d9c9c_1000x1000.webp" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text">HP Chromebox Mini PC I7-8th Gen | Window 11...
-         </p>
-         <p>  ₹ 19,399/-</p>
-          <button>Enquire Now</button>
-    </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-    <img src="img/1_5127e508-4ff0-4814-a16e-4e418632b58e_grande.webp" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text">Dell Latitude E5400 | I5-8th Gen | 14" FHD | Win 11 ...</p> 
-      <p>  ₹ 22,499/-</p>
-      <button>Enquire Now</button> 
-      
-
-      
-    </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-    <img src="img/1_9a481a74-b8ae-4b90-a316-10187c16e0bd_grande.webp" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text">LENOVO Thinkpad T410 | 1st GEN | CORE I5 | 4 GB R ...</p>
-      <p>  ₹ 22,499/-</p>
-      <button>Enquire Now</button>
-    </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-    <img src="img/1_77d03bd0-43f9-46de-98bf-59f5760c93f9_1000x1000.webp" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text">HP Chromebook | I5-10th Gen | 14" FHD | 8GB DDR4 RAM  ...</p>
-      <p> ₹ 49,999/-</p>
-      <button>Enquire Now</button> 
-    </div>
-  </div>
-</section>
 
 
-<section style="  font-size: 37px; text-align: center;">
-  New<span style=" color: rgb(56, 216, 50);"> arrivals </span>
-  </section>
 
-  
-  <section class="card-cate" style="display: grid; grid-template-columns: 29%; display: flex; justify-content: center; justify-content: space-between; padding: 5rem;"> 
-    <div class="card" style="width: 18rem;">
-      <img src="img/1_050a9603-a83f-4434-bfda-b6a51b406efc_grande.webp" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">     ACER Chromebox High performance Mini PC
-       Win 11 16 GB | 512 GB..
-           </p>
-           <p>  ₹ 19,399/-</p>
-            <button>Buy Now</button>
+
+    </main>
+
+
+    <footer class=" text-white text-center text-lg-start" style="background-color: rgb(81, 90, 98); ">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">New Jaisa</h5>
+            <p>
+              Choose responsibly with our refurbished laptops, where excellence meets renewal, empowering productivity through conscious sustainability.where excellence meets renewal, empowering productivity through conscious sustainability.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">About us</h5>
+    
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">About NewJaisa</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Refurbishing story</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Our story</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Affiliate Program</a>
+              </li>
+            </ul>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Our Product</h5>
+    
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-white">Laptops</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Moniter</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Tablets</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Accessories</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="img/moniter.webp" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">  Dell 19" HD |LED Backlit Monitor...</p> 
-        <p>  ₹ 4099</p>
-        <button>Buy Now</button> 
-        
-  
+    
+      <div class="text-center p-3" style="background-color: rgba(24, 24, 26, 0.978);">
+        © 2024 Copyright:
+        <a class="text-white" href="https://newjaisa.com/">NewJaisa</a>
       </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="img/DJ488a1_1000x1000.webp" class="card-img-top" alt="..."  height="57%">
-      <div class="card-body">
-        <p class="card-text">Dell  Moniter Keyboard  Wired  and USB Black Keyboard.... </p>
-        <p>  ₹500</p>
-        <button>Buy Now</button>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="img/cp.webp" class="card-img-top" alt="..." height="63%">
-      <div class="card-body">
-        <p class="card-text">HP Compaq Desktop | I5-3rd Gen ...</p>
-        <p> ₹ 6652-</p>
-        <button>Buy Now</button> 
-      </div>
-    </div>
-  </section>
-  <h1 style="text-align: center; font-family: sans-serif;">Built by experts</h1>
+    </footer>
 
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style=" margin: auto; border-radius: 30px; width: 75%; height: 40%;" >
-    <div class="carousel-inner"  style="border-radius: 20px;">
-      <div class="carousel-item active">
-        <img src="img/1_insiderSTory.webp" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/2_insiderSTory.webp" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/3_insiderSTory.webp" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  
-  <h1 style="padding: 5rem; text-align: center;">4 questions people always ask</h1>
-
-  <section style="width: 77%; margin: auto;"> 
-<h3>Why Choose Refurbished Laptops?</h3>
-<p>Affordability: Refurbished laptops are often sold at a fraction of the cost of a new laptop. This means that you can get a high-quality laptop that fits your budget.</p>
-
-<p>Environmentally friendly: When you buy a refurbished laptop, you're helping to reduce electronic waste. Electronic waste is a significant problem worldwide, and by recycling electronic devices like laptops, we can help reduce the amount of waste that ends up in landfills.</p>
-
-<p>Quality: Refurbished laptops are tested and repaired by professionals to ensure that they're in good condition. This means that you can get a high-quality laptop that's just like new.</p>
-
-<hr>
-<h3>What are some benefits of buying a refurbished laptop from Newjaisa?</h3>
-<hr>
-
-<h3>How do we know about the support and warranty services at Newjaisa?
-</h3>
-<hr>
-<h3>  How do I Return or Cancel an Order?</h3>
-<hr>
-</section>
-
-
-<footer class=" text-white text-center text-lg-start" style="background-color: rgb(81, 90, 98);">
-  <div class="container p-4">
-    <div class="row">
-      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">New Jaisa</h5>
-        <p>
-          Choose responsibly with our refurbished laptops, where excellence meets renewal, empowering productivity through conscious sustainability.where excellence meets renewal, empowering productivity through conscious sustainability.
-        </p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase">About us</h5>
-
-        <ul class="list-unstyled mb-0">
-          <li>
-            <a href="#!" class="text-white">About NewJaisa</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Refurbishing story</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Our story</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Affiliate Program</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase mb-0">Our Product</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!" class="text-white">Laptops</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Moniter</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Tablets</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Accessories</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="text-center p-3" style="background-color: rgba(24, 24, 26, 0.978);">
-    © 2024 Copyright:
-    <a class="text-white" href="https://newjaisa.com/">NewJaisa</a>
-  </div>
-</footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
-</html>     
-
-
+</html>
