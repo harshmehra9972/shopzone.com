@@ -158,8 +158,23 @@ text-align: center;
   .section1 {
     width: 100%;
     flex-direction: column;
+    justify-content: space-between;
   }
 }
+
+.reson
+{
+  display: grid; grid-template-columns: 1fr 1fr 1fr;
+}
+@media (max-width: 768px) {
+  .reson {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+
     </style>
 </head>
 <body>
@@ -190,7 +205,7 @@ text-align: center;
         <input type="text" placeholder="search.." class="search">
         <button>search</button>
       </div>
-      <div>
+      <div class="header-login">
     
  <a href="account.html" style="color: black;"> Login</a>
 </div>    </div>
@@ -314,7 +329,7 @@ text-align: center;
 
 <section style="background-color:  rgb(242, 242, 242); padding: 12rem;">
 
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+<div class="reson" >
 
   <div style="font-size: 35px;">
    <strong style="color: rgb(32, 225, 32);">5</strong>  Reasons,<strong style="color: rgb(12, 174, 237);">You can’t <br>Say No</strong>  to  <strong>NewJaisa</strong>
