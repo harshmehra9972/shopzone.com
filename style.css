@@ -659,6 +659,7 @@ width: 14%;
 
 .card-img-moniter
 {
+  object-fit: contain;
   width: 250px;
     height: 231px;
 align-items: center;
