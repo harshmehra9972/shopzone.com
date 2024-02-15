@@ -46,7 +46,7 @@ body{
   
   
   .search{
-    height: 30px; width:301px;
+    height: 30px; width:499px;
     font-family: sans-serif;
     padding: 0px 31px;
     background-color: transparent;
@@ -84,7 +84,7 @@ body{
   {
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0px 7px 7px rgb(234, 198, 198);
+    box-shadow: 0px 7px 7px rgb(244, 209, 209);
     font-family: sans-serif;
     background-color: white;
   }
@@ -118,7 +118,7 @@ body{
     display: flex; 
     justify-content: center; 
   margin: auto;
-    gap: 7px;
+    gap: 13px;
     margin-left: 1.3rem;
   }
   
@@ -128,6 +128,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
+    gap: 2%;
   }
   .questions-li
   {
@@ -184,13 +185,13 @@ body{
      padding: 1rem;
   }
   .header-div2{
-    width: 60%; margin: auto; 
+    width: 72%; margin: auto; 
   }
   .header-div3{
     justify-content: space-between; 
     display: flex;
      flex-direction: row; 
-     width: 91%;
+     width: 87%;
       margin: auto;
   }
 
@@ -203,7 +204,7 @@ body{
      border-radius: 10px;
   }
   .header-div6{
-    width: 80%; margin: auto;
+    width: 89%; margin: auto;
   }
   .nav1
   {
@@ -214,13 +215,13 @@ body{
   
 .section1-div1
 {
-    width: 80%;
+    width: 89%;
      margin: auto;
 }
 .section1-div2
 {
 
-width: 70%; margin: auto;
+width: 71%; margin: auto;
 }
 .section2-div1
 {
@@ -270,9 +271,10 @@ padding: 3rem;
 
 .section3-div3
 {
-    width: 70%;
+    width: 77.4%;
     margin: auto;
      margin-bottom: 15px;
+     margin-right: 11.8%;
 }
 .section3-p2
 {
@@ -286,9 +288,9 @@ padding: 3rem;
 }
 .section4-div1
 {
-    width:80%;
+    width:87%;
      margin: auto;
-     padding: 4rem;
+     padding: 5rem;
 }
 .section5
 {
@@ -298,9 +300,10 @@ padding: 3rem;
 }
 .section5-div1
 {
-    width: 65%;
-     margin: auto;
-      padding:3rem;
+  width: 68%;
+  margin: auto;
+  padding: 3rem;
+  margin-left: 16%;
 }
 .section5-div2
 {
@@ -324,13 +327,14 @@ padding: 3rem;
 {
     font-family: sans-serif;
      width: 80%;
+     margin: auto;
 }
 .section6-div2
 {
-width: 88%;
- margin: auto;
-  margin-top: 10%;
-  margin-right: 4% ;
+  width: 92.7%;
+  margin: auto;
+  margin-top: 6%;
+  margin-left: 5.3%;
 
 }
 .section6-div3
@@ -345,6 +349,7 @@ display: flex;
 }
 .section6-div5
 {
+  padding: 2% 7% 0% 2%;
 border-right:1px solid black;
 }
 
@@ -355,6 +360,7 @@ border-right:1px solid black;
       width: 100%;
        text-align: center;
         background-color:  rgb(242, 242, 242);
+        margin-top: 1%;
 }
 .section7-h1
 {
@@ -363,10 +369,10 @@ border-right:1px solid black;
 }
 .section7-div1
 {
-width: 85%;
+  width: 72%;
  margin: auto;
   margin-top: 5%;
-  margin-right: 4% ;
+  margin-left: 15.2% ;
 }
 
 .section7-div2
@@ -378,14 +384,17 @@ width: 85%;
 .section8
 {
   margin: auto;
-  padding: 13%;
+  padding: 10.5%;;
    width: 100%;
     background-color:  rgb(242, 242, 242);
 }
 .section8-div1
 {
   display: grid;
-   grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
+  width: 81.6%;
+  margin: auto;
+  margin-left: 10.3%;
 }
 .student
   {
@@ -455,6 +464,7 @@ width: 85%;
   width: 100%; 
   text-align: center; 
   background-color:  rgb(242, 242, 242);
+  margin-top: 1%;
 }
 .section9-h1{
   font-family: sans-serif;
@@ -462,15 +472,16 @@ width: 85%;
 }
 .section9-div1
 {
-  width: 80%;
+  width: 74%;
    margin: auto;
-   margin-top: 10%;
+   margin-top: 5%;
+   margin-left: 15%;
 }
 .section9-div2
 {
 display: grid;
  grid-template-columns: 1fr 1fr;
-  width: 100%;
+  width: 97.3%;
 }
 .section-10
 {
@@ -478,14 +489,17 @@ display: grid;
   display: flex; 
   padding: 9%;
    background-color: rgb(242, 242, 242) ;
+   margin: auto;
+   margin-top: 1%;
 }
 .section-10-div1
 {
-  width: 90%;
+  width: 97.4%;
    display: flex;
+   gap: 2.2%;
 }
 
-.section-10-div1
+.section-10-div2
 {
 font-size: xxx-large; text-align: center;
 
@@ -493,8 +507,8 @@ font-size: xxx-large; text-align: center;
 
 .section-10-div2
 {
-  width: 25rem;
-   margin-left: 4%;  
+  width: 15rem;
+   margin-left: 10%;  
    border-style: none;
 
 }
@@ -506,6 +520,13 @@ font-size: xxx-large; text-align: center;
      margin-top: 15px;
 
 }
+.section-10-div4
+{
+  display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 5%;
+   width: 63%;
+}
 .section-11-h1 {
   padding: 5rem; 
   text-align: center;
@@ -513,7 +534,7 @@ font-size: xxx-large; text-align: center;
 .section-11{
   width: 69%; 
   margin: auto; 
-  padding: 2%;
+  padding: 3%;
 }
 
 .section12
