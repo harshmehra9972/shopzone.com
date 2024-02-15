@@ -6,226 +6,8 @@
     <title>home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
   
-    <style>
-
-body{
-  align-items: center;
-  background-color: rgb(252, 252, 252);
-  margin: auto;
-}
-
-a
-{
-  text-decoration: none;
-}
-header
-{
-    background: #fff;
-    box-shadow: 3px 3px 12px #22222214;
-    position: relative;
-     text-align: center;
-}
-
-header ul
-{
-  text-align: center;
-  list-style: none;
-  display: flex;
-justify-content: space-between;
-}
-
-
-
-header li{
-  text-decoration: none;
-}
-
-header
-{
-  text-align: center;
-  
-}
-@media (max-width: 768px)
-{
-    
-#header ul {
-    grid-template-columns: 100%;
-}
-}
-
-
-.search{
-  height: 30px; width:500px;
-  font-family: sans-serif;
-  padding: 0px 31px;
-  background-color: transparent;
-  border-style: none;
-
-}
-.card
-{
-  border-radius: 10px;
-  box-shadow: 0px 7px 7px rgb(234, 198, 198);
-  font-family: sans-serif;
-}
-.card:hover{
-  box-shadow: 0px 5px 5px 1px rgb(229, 149, 149);
-}
-.card-img-top
-{
-  width: 4rem;
-  padding: 0.5rem;
-  
-}
-.card-img-top1
-{
-  width: 3rem;
-  padding: 1rem;
-  
-}
-.card-img-top4
-{
-  width: 5rem;
-  
-  
-}
-.card1
-{
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 0px 7px 7px rgb(234, 198, 198);
-  font-family: sans-serif;
-  background-color: white;
-}
-.card1:hover{
-  box-shadow: 0px 5px 5px 1px rgb(229, 149, 149);
-}
-.card-img-top2
-{
-  width: 40%;
-  object-fit: contain;
-  
-}
-.card3
-{
-text-align: center;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 2px 7px 7px 3px rgb(234, 198, 198);
-  font-family: sans-serif;
-}
-.card3:hover{
-  box-shadow: 0px 5px 5px 1px rgb(229, 149, 149);
-}
-.card-text
-{
-  font: 20px;
-}
-.student
-{
-  color: white;
- background-image: url(laptopimg/01.webp);
- width: 95%;
-  height: 240px;
-  border-radius: 13px;
-  background-size: cover;
- background-position: center;
- object-fit: fill;
-}
-.student1
-{
-  color: white;
- background-image: url(laptopimg/2.webp);
- width: 95%;
-  height: 240px;
-  border-radius: 13px;
-  background-size: cover;
- background-position: center;
- object-fit: fill;
-}
-.student2
-{
-  margin-top: 20px;
-  color: white;
- background-image: url(laptopimg/3.webp);
- width: 95%;
-   height: 240px;
-  border-radius: 13px;
-  background-size: cover;
- background-position: center;
- object-fit: fill;
-}
-.student3
-{
-  margin-top: 20px;
-  color: white;
- background-image: url(laptopimg/04.webp);
- width: 95%;
-  height: 240px;
-  border-radius: 13px;
-  background-size: cover;
- background-position: center;
- object-fit: fill;
-}
-.section1
-{
-  display: flex; 
-  justify-content: center; 
-margin: auto;
-  gap: 10px;
-}
-
-
-.reson
-{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-left: 4%;
-}
-.questions-li
-{
-  list-style: none;
-}
-.card-img
-{
-  margin: auto;
-  width: 215px;
-  height: 72px;
-  object-fit: contain;
-}
-.card-img{
-  width: 157px;
-}
-
-.card-img-topp
-{
-  width: 62%;
-    margin-left: 12%;
-  object-fit: contain;
-}
-.card-text3
-{
-  font-family: serif;
-    font-size: 23px;
-}
-.a1{
-  margin-right: 47px;
-    /* margin-bottom: 2%; */
-    margin-top: -15px;
-    color: #687c89;
-}
-.a2
-{
-  font-size: 110%;
-}.card-img-topw
-{
-  width: 100%;
-  object-fit: contain;
-}
-
-
-    </style>
 </head>
 <body>
 
@@ -233,8 +15,8 @@ margin: auto;
    
 
 
-    <header  style="position: sticky; z-index: 10000; width: 100%; top: 0;">
-      <div style="background-color: rgb(0, 102, 169); width: auto; color: white;padding: 1rem;">
+    <header class="header1">
+      <div class="header1-div1" >
         <div> <strong>For B2B or Bulk Enquiries please reach out to us on +91 9035009233</strong>  <br>
           <br>
 
@@ -242,31 +24,24 @@ margin: auto;
        
     </div>
     <marquee  direction="left"> National Stock Exchange(NSE)||  NewJaisa Technologies   <span style="color: green;"> 128.40</span> <span style="color: red;">  -3.45 ( -2.76%) </span> (Last Updated 6-2-2024 / 3:30 PM)</marquee>  
-
-    <div style="width: 70%; margin: auto;" >
-     
-
-
-
-      <div style="width: 80%; margin: auto;">
-        <div style="justify-content: space-between; display: flex; flex-direction: row; width: 100%;" >
-      <div style="width:3rem;"> 
+     <div class="header-div2">
+        <div class="header-div3" >
+      <div class="header-div4"> 
         
-      <a href="index.html"> <img src="img/logo.avif" alt="" height="100%" style="width: 10rem;" ></a>  </div>
-      <div style="padding: 0px 10px; border-style: groove; border-radius: 10px;">
+      <a href="index.html"> <img src="img/logo.avif" alt="" height="30px" style="width: 150px;" ></a>  </div>
+      <div class="header-div5">
         <input type="text" placeholder="search by model, color, brand... " class="search">
-      <img src="laptopimg/search-svgrepo-com (1).svg" alt="" width="30px" height="30px">
+      <img src="laptopimg/search-svgrepo-com (1).svg" alt="" width="27px" height="27px">
       </div>
-      <div style="gap: 20%;">
+      <div>
     
  <a href="account.html" style="color: black; margin-right: 10px;"> Account</a>
  <a href="wishlist.html" style="color: black;"> wishlist</a>
 </div>    </div>
     </div>
-  </div>
-    <div style="width: 80%; margin: auto;">
+    <div class="header-div6">
 
-      <nav style=" width: 74%; margin: auto; padding: 2rem 0rem 0.2rem 0rem; ">
+      <nav class="nav1">
         <ul>
           <li>  <a href="index.html" style="color: black;">All Products</a></li>
           <li>  <a href="chormepc.html" style="color: black;">Chrome PCs</a></li>
@@ -283,8 +58,8 @@ margin: auto;
     </header>
 
     <main>
-      <section style="width: 80%; margin: auto;">
-        <div style="width: 70%; margin: auto;">
+      <section class="section1-div1" >
+        <div class="section1-div2">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="  border-radius: 30px;">
         <div class="carousel-inner" style="border-radius: 20px; margin-top: 5% ">
           <div class="carousel-item active">
@@ -316,47 +91,45 @@ margin: auto;
     </section>
 
 
-    <section style="display: flex; justify-content: center;  margin: auto;   border-radius: 10px; color: rgb(22, 17, 17);margin-top: 2rem;">
+    <section class="section2-div1" >
 
-      <div style="text-align: right;" >
+      <div class="section2-div2">
         <img src="img/counterImg01.svg" alt="" height="60%" >
       </div>
-      <div style="border-right: #fff; margin-left: 2px;" >
-      <p style="  width: 12rem;  border-radius: 4px;"><span style="background-color:#f0f0f0; font-size: 23px; padding: 0 12px; border-radius: 10px;padding: 0 12px; border-radius: 10px;">382,000,000</span> <span style="display: block; font-weight: 600; font-size: 18px;">Products sold</span></p>
+      <div class="section2-div3" >
+      <p class="section2-p1"><span style="background-color:#f0f0f0; font-size: 23px; padding: 0 12px; border-radius: 10px;padding: 0 12px; border-radius: 10px;">382,000,000</span> <span style="display: block; font-weight: 600; font-size: 18px;">Products sold</span></p>
               </div>
       
       <div style="text-align: right;"  >
         <img src="img/counterImg02.svg" alt="" height="60%" >
       </div>
       <div >
-      <p style=" width: 12rem;  border-radius: 4px; "><span style="background-color:#f0f0f0; font-size: 23px; padding: 0 12px; border-radius: 10px;padding: 0 12px; border-radius: 10px;">₹ 890,320,00</span><span style="display: block; font-weight: 600; font-size: 18px;">Saved</span></p>
+      <p class="section2-p1" ><span style="background-color:#f0f0f0; font-size: 23px; padding: 0 12px; border-radius: 10px;padding: 0 12px; border-radius: 10px;">₹ 890,320,00</span><span style="display: block; font-weight: 600; font-size: 18px;">Saved</span></p>
       
       </div>
       <div  style="text-align: right;" >
         <img src="img/counterImg03.svg" alt="" height="60%" >
       </div>
       <div >
-        <p style=" width: 12rem;  border-radius: 4px;"><span style="background-color:#f0f0f0; font-size: 23px; padding: 0 12px; border-radius: 10px;padding: 0 12px; border-radius: 10px;">19,231,128 Tons</span><span style="display: block; font-weight: 400;font-size: 18px;">Co2 reduced</span></p>
+        <p class="section2-p1" ><span style="background-color:#f0f0f0; font-size: 23px; padding: 0 12px; border-radius: 10px;padding: 0 12px; border-radius: 10px;">19,231,128 Tons</span><span style="display: block; font-weight: 400;font-size: 18px;">Co2 reduced</span></p>
       </div>
-      
-      </section>
-    
-    
+     </section>
 
-
-    <section  style="background-color: rgb(242, 242, 242); text-align: center; font-family: sans-serif; margin: auto;">
-      <div style="padding: 5rem;">
-      <p style="font-size: 3rem; ">  Old is the new <span style="color: rgb(175, 146, 243);">New</span></p>
-      <p style="font-size: 3rem;">Join the <span style="color: rgb(94, 223, 68);"> Green</span> Techovution.. Its happening Now!</p>
+    <section  class="section3" >
+      <div class="section3-div1">
+      <div class="section3-div2">
+      <p class="section3-p1">  Old is the new <span style="color: rgb(175, 146, 243);">New</span></p>
+      <p  class="section3-p1">Join the <span style="color: rgb(94, 223, 68);"> Green</span> Techovution.. Its happening Now!</p>
     </div>
-      <div style="width: 70%;margin: auto;">
+  </div>
+      <div class="section3-div3" >
 
         <div  class="section1">
           <div class="card" style="width:27%;">
         <div class="card-body">
           <h2 class="card-title">8 Out of 10</h2>
           <p>Desktops Sold Online are Now</p>
-          <p style="color: rgb(123, 186, 235);">Preloved</p>
+          <p   class="section3-p2" >Preloved</p>
 
         </div>
       </div>
@@ -364,7 +137,7 @@ margin: auto;
       <div class="card" style="width: 27%;">
         <div class="card-body">
           <h2 class="card-title">20X</h2>
-          <p>Times Faster <span style="color:rgb(70, 67, 244) ;"> Refurb</span> Units are</p>
+          <p >Times Faster <span style="color:rgb(70, 67, 244) ;"> Refurb</span> Units are</p>
           <p>selling than new</p>
         </div>
       </div>
@@ -382,22 +155,22 @@ margin: auto;
       
 
 
-<section style="display: block; padding: 6rem; background-color:  rgb(242, 242, 242);">
-  <div style="width:97%; margin: auto;">
+<section class="section4">
+  <div class="section4-div1">
   <img src="desktop/Pocket_Friendly_new_a367c739-e32c-4dbf-b80f-5384ede2d03d.webp" alt="" width="80%" height="100%" style=" box-shadow: 0px 5px 20px 0px rgb(34 34 34 / 22%);
-  border-radius: 8px; margin-left: 10%;">
+  border-radius: 8px;margin-left: 11%; ">
   </div>
 </section>
 
 
-<section style="background-color:  rgb(242, 242, 242);  margin: auto; margin-top: 1%;">
-<div style="width: 89%; margin: auto; padding:8rem;">
+<section class="section5">
+<div class="section5-div1">
 <div class="reson" >
 
-  <div style="font-size: 35px;">
+  <div class="section5-div2" >
    <strong style="color: rgb(32, 225, 32);">5</strong>  Reasons,<strong style="color: rgb(12, 174, 237);">You can’t <br>Say No</strong>  to  <strong>NewJaisa</strong>
   </div>
-    <div class="card1" style="width: 90%;">
+    <div class="card1" >
       <img src="desktop/Scratchless img.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h2 class="card-title">Scratchless</h2>
@@ -405,14 +178,14 @@ margin: auto;
         </div>
       </div>
   
-      <div class="card1" style="width: 90%;">
+      <div class="card1" >
       <img src="desktop/Lowest price img.png" class="card-img-top1" alt="...">
                 <div class="card-body">
           <h2 class="card-title">Lowest Price</h2>
                  <p>Guarantee</p>
         </div>
       </div>
-      <div class="card1" style="width: 90%; margin-top: 20px;">
+      <div class="card1" style=" margin-top: 20px;">
         <img src="desktop/30 Days Return img.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h2 class="card-title">14 Days Return</h2>
@@ -420,7 +193,7 @@ margin: auto;
         </div>
       </div>
 
-      <div class="card1" style="width: 90%;margin-top: 20px;">
+      <div class="card1" style="margin-top: 20px;">
         <img src="desktop/1 Warranty.png" class="card-img-top1" alt="...">
         <div class="card-body">
           <h2 class="card-title">Year</h2>
@@ -428,7 +201,7 @@ margin: auto;
         </div>
       </div>
 
-      <div class="card1" style="width: 90%; margin-top: 20px;">
+      <div class="card1" style=" margin-top: 20px;">
         <img src="desktop/Lifetime buyback img.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h2 class="card-title">Lifetime Buyback</h2>
@@ -440,18 +213,18 @@ margin: auto;
 </section>
 
 
-<section style="margin: auto;  width: 100%; text-align: center; background-color:  rgb(242, 242, 242); margin-top: 1%;">
-<div style="width: 92%; margin: auto; padding: 6rem;">
-<h1 style="font-family: sans-serif; width: 100%;">Red Hot... Moving Fast... Check our <span style="color: #70ef0ff0;">bestsellers</span> </h1>
-<div style=" width: 88%; margin: auto; margin-top: 10%;margin-right: 4% ;">
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;">
-  <div class="card3" style="width: 88%; height: 336px;">
+<section class="section6" >
+<div class="section6-div1" >
+<h2 class="section6-h1">Red Hot... Moving Fast... Check our <span style="color: #70ef0ff0;">bestsellers</span> </h2>
+<div class="section6-div2" >
+<div class="section6-div3">
+  <div  class="card3" style="width: 88%; height: 336px;">
     <img src="img/Untitleddesign_3_5708d03a-94e3-4a88-865e-7822252d9c9c_1000x1000.webp" class="card-img-top2" alt="..." height="63%">
     <div class="card-body">
       <p class="card-text"><strong>HP Chromebox Mini PC</strong></p>
       <p class="a1">i7-8th gen | Win 11</p>
-      <div style="display: flex; justify-content: center;">
-      <div style="border-right:5px black;">
+      <div class="section6-div4" >
+      <div class="section6-div5" >
         <img src="img/logo.avif" class="card-img-top4" alt="..."> 
       </div>
       <div>
@@ -466,8 +239,8 @@ margin: auto;
     <div class="card-body">
       <p class="card-text"><strong>Dell Latitude I5-8th Gen</strong></p>
       <p class="a1">14" FHD | Win 11</p>
-      <div style="display: flex; justify-content: center;">
-      <div style="border-right:5px black;">
+      <div class="section6-div4">
+      <div class="section6-div5">
         <img src="img/logo.avif" class="card-img-top4" alt="..."> 
       </div>
       <div>
@@ -482,8 +255,8 @@ margin: auto;
     <div class="card-body">
       <p class="card-text"><strong>HP Chromebook | i5-10th Gen </strong></p>
       <p class="a1">8GB DDR4 RAM</p>
-      <div style="display: flex; justify-content: center;">
-      <div style="border-right:5px black;">
+      <div class="section6-div4">
+        <div class="section6-div5">
         <img src="img/logo.avif" class="card-img-top4" alt="..."> 
       </div>
       <div>
@@ -498,8 +271,8 @@ margin: auto;
     <div class="card-body">
       <p class="card-text"><strong>Acer Chromebook 8th Gen </strong></p>
       <p class="a1">i7-8th gen | Win 11</p>
-      <div style="display: flex; justify-content: center;">
-      <div style="border-right:5px black;">
+      <div class="section6-div4">
+        <div class="section6-div5">
         <img src="img/logo.avif" class="card-img-top4" alt="..."> 
       </div>
       <div>
@@ -518,18 +291,18 @@ margin: auto;
 
 
 
-<section style="margin: auto; padding: 6rem; width: 100%; text-align: center; background-color:  rgb(242, 242, 242);">
+<section class="section7" >
 
-  <h1 style="font-family: sans-serif; width: 100%;">New <span style="color: #56b50ef0;">arrivals</span> </h1>
-  <div style=" width: 85%; margin: auto; margin-top: 5%;margin-right: 4% ;">
-  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; width: 100%;">
+  <h1 class="section7-h1">New <span style="color: #56b50ef0;">arrivals</span> </h1>
+  <div class="section7-div1">
+  <div class="section7-div2">
     <div class="card3" style="width: 88%; height: 336px;">
       <img src="img/acer.webp" class="card-img-top2" alt="..." height="63%">
       <div class="card-body">
         <p class="card-text"><strong>HP Chromebox Mini PC</strong></p>
         <p class="a1">i7-8th gen | Win 11</p>
-        <div style="display: flex; justify-content: center;">
-        <div style="border-right:5px black;">
+        <div class="section6-div4">
+          <div class="section6-div5">
           <img src="img/logo.avif" class="card-img-top4" alt="..."> 
         </div>
         <div>
@@ -544,8 +317,8 @@ margin: auto;
       <div class="card-body">
         <p class="card-text"><strong>Dell OptiPlex Full Set </strong></p>
         <p class="a1">14" FHD | Win 11</p>
-        <div style="display: flex; justify-content: center;">
-        <div style="border-right:5px black;">
+        <div class="section6-div4">
+          <div class="section6-div5">
           <img src="img/logo.avif" class="card-img-top4" alt="..."> 
         </div>
         <div>
@@ -559,8 +332,8 @@ margin: auto;
       <div class="card-body">
         <p class="card-text"><strong>Acer Chromebook I5-8th </strong></p>
         <p class="a1">i7-8th gen | Win 11</p>
-        <div style="display: flex; justify-content: center;">
-        <div style="border-right:5px black;">
+        <div class="section6-div4">
+          <div class="section6-div5">
           <img src="img/logo.avif" class="card-img-top4" alt="..."> 
         </div>
         <div>
@@ -574,8 +347,8 @@ margin: auto;
       <div class="card-body">
         <p class="card-text"><strong>Dell OptiPlex Full Set  </strong></p>
         <p class="a1">14" FHD | Win 11</p>
-        <div style="display: flex; justify-content: center;">
-        <div style="border-right:5px black;">
+        <div class="section6-div4">
+          <div class="section6-div5">
           <img src="img/logo.avif" class="card-img-top4" alt="..."> 
         </div>
         <div>
@@ -640,26 +413,26 @@ margin: auto;
 </section>
 
 
-<section style="margin: auto; padding: 13%; width: 100%; background-color:  rgb(242, 242, 242);" >
-  <div style="display: grid; grid-template-columns: 1fr 1fr ;">
+<section class="section8">
+  <div class="section8-div1">
 <div class="student">
-  <h2 style="margin-left: 9%;padding: 1rem;">student laptops at <br>low price</h2>
-  <button style=" color: white;    margin-left: 13%; padding: 0.5rem 1rem 1rem;background-color: #0066a9; border-radius: 10px;">Shop Now</button>
+  <h2 class="section8-h2" >student laptops at <br>low price</h2>
+  <button class="section8-button" >Shop Now</button>
 </div>
 
 <div class="student1">
-  <h2 style="margin-left: 9%;padding: 1rem;">student laptops at <br>low price</h2>
-  <button style="  color: white;    margin-left: 13%; padding: 0.5rem 1rem 1rem;background-color:  #0066a9; border-radius: 10px;">Shop Now</button>
+  <h2 class="section8-h2" >student laptops at <br>low price</h2>
+  <button class="section8-button"  >Shop Now</button>
 </div>
 
 <div class="student2">
-  <h2 style="margin-left: 9%;padding: 1rem;">student laptops at <br>low price</h2>
-  <button style=" color: white;     margin-left: 13%; padding: 0.5rem 1rem 1rem;background-color:  #0066a9; border-radius: 10px;">Shop Now</button>
+  <h2 class="section8-h2" >student laptops at <br>low price</h2>
+  <button class="section8-button"  >Shop Now</button>
 </div>
 
 <div class="student3">
-  <h2 style="margin-left: 9%;padding: 1rem;">student laptops at <br>low price</h2>
-  <button style="  color: white;    margin-left: 13%; padding: 0.5rem 1rem 1rem;background-color:  #0066a9; border-radius: 10px;">Shop Now</button>
+  <h2 class="section8-h2">student laptops at <br>low price</h2>
+  <button class="section8-button"  >Shop Now</button>
 </div>
 
 
@@ -669,11 +442,11 @@ margin: auto;
 
 
 
-<section style="margin: auto; padding: 6rem; width: 100%; text-align: center; background-color:  rgb(242, 242, 242);">
+<section class="section9">
 
-  <h1 style="font-family: sans-serif; width: 100%;">There's a <strong style="color: #0a91eb;"> Breed </strong> for every <strong style="color: rgb(8, 166, 8);"> Need</strong> </h1>
-  <div style=" width: 80%; margin: auto; margin-top: 10%; ">
-  <div style="display: grid; grid-template-columns: 1fr 1fr; width: 100%;">
+  <h1 class="section9-h1">There's a <strong style="color: #0a91eb;"> Breed </strong> for every <strong style="color: rgb(8, 166, 8);"> Need</strong> </h1>
+  <div class="section9-div1">
+  <div class="section9-div2">
     <div class="card3" style="width: 95%; height: 336px;">
       <img src="img/acer.webp" class="card-img-top2" alt="..." height="63%">
       <div class="card-body">
@@ -728,31 +501,30 @@ margin: auto;
 
   </section>
   
-<section style=" flex-direction: row; display: flex; padding: 9%; background-color: rgb(242, 242, 242) ;">
-  <div style="width: 90%; display: flex;">
+<section class="section-10">
+  <div class="section-10-div1">
 
-    <div style="font-size: xxx-large; text-align: center;">
+    <div class="section-10-div2">
       Our <span style="color: #0a91eb;"> partners</span>  love us
-  
-    </div>
+      </div>
     <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1%;">
 
-      <div class="card" style="width: 18rem; margin-left: 4%; border-style: none;">
+      <div class="card" class="section-10-div2">
         <img src="img/hp.avif" class="card-img" alt="...">
      </div>
-      <div class="card" style="width: 18rem; margin-left: 4%; border-style: none;">
+      <div class="card" class="section-10-div2">
         <img src="img/lenovo_df88abe1-01f2-45b4-8c45-14c243b6f25c.avif" class="card-img" alt="...">
          </div>
-         <div class="card" style="width: 18rem; margin-left: 4%; border-style: none;">
+         <div class="card" class="section-10-div2">
           <img src="img/dell.avif" class="card-img" alt="...">
            </div>
-           <div class="card" style="width: 18rem; margin-left: 4%; border-style: none; margin-top: 15px;">
+           <div class="card" class="section-10-div3" >
             <img src="img/ibm.avif" class="card-img" alt="...">
              </div>
-             <div class="card" style="width: 18rem; margin-left: 4%; border-style: none; margin-top: 15px;">
+             <div class="card" class="section-10-div3" >
               <img src="img/cytel.avif" class="card-img" alt="...">
                </div>
-               <div class="card" style="width: 18rem; margin-left: 4%; border-style: none; margin-top: 15px;">
+               <div class="card" class="section-10-div3" >
                 <img src="img/asus_logo.webp" class="card-img" alt="...">
                  </div>
     </div>
@@ -804,9 +576,9 @@ margin: auto;
 
 
 
-<h1 style="padding: 5rem; text-align: center;">4 questions people always ask</h1>
+<h1 class="section-11-h1">4 questions people always ask</h1>
 
-<section style="width: 69%; margin: auto; padding: 2%;"> 
+<section  class="section-11"> 
 
   <div style="display: flex; justify-content: space-between;">
 <h3>Why Choose Refurbished Laptops?</h3>
@@ -817,7 +589,7 @@ margin: auto;
 
 </div>
 
-
+<hr>
 <div class="collapse" id="collapseExample1">
   <div class="">
     <ul>
@@ -847,6 +619,7 @@ margin: auto;
     <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style="border-radius: 40px;"> + </a>
   </p>
     </div>
+    <hr> 
 
   <div class="collapse" id="collapseExample">
     <div class="">
@@ -866,7 +639,7 @@ margin: auto;
       <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2" style="border-radius: 40px;"> + </a>
     </p>
       </div>
-  
+  <hr>
     <div class="collapse" id="collapseExample2">
       <div class="">
         <ul>
@@ -912,40 +685,44 @@ Email ID : support@newjaisa.com
 
 
 
-<section style=" flex-direction: row; display: flex; padding: 6%;;">
-  <div style="width: 100%; display: flex;">
+<section class="section12" >
+  <div class="section12-div1">
 
-    <div style="font-size: xxx-large; text-align: center;">
+    <div class="section12-div2">
       Our <span style="color: #0a91eb;"> Blogs</span> 
   
     </div>
 
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1%; margin-left: 13%;">
+    <div class="section12-div3">
 
-     <div class="cardd" style="width: 98%; background-color: white;border-radius: 15px;height: 368px;">
+     <div  class="section12-div4" class="cardd">
     <img src="laptopimg/download.jpg" class="card-img-topp" alt="..." >
     <div class="card-body">
     <p>Techstory</p>
     <p class="card-text3">Refurbished Laptops: High-Quality, Cost-Effective Alternatives</p>
     </div>
     </div>
-       <div class="cardd" style="width: 98%; background-color: white;border-radius: 15px;height: 368px;">
+       <div class="section12-div4" class="cardd" >
       <img src="laptopimg/images.jpg" alt="..."      width="83%;"      height=" 65%;">
       <div class="card-body">
         <p>Entrepreneur</p>
       <p class="card-text3">A MacBook Pro for Under $270? It's Possible.</p>
       </div>
       </div>  
-      <div class="cardd" style="width: 98%; background-color: white;border-radius: 15px;height: 368px;">
+      <div class="section12-div4" class="cardd" >
         <img src="laptopimg/iPhone 14 vs iPhone 14 pro A Detailed Comparison.webp" alt="..."      width="83%;"      height=" 65%;" style="margin: auto;">
         <div class="card-body">
           <p>  Category</p>
         <p class="card-text3">iPhone 14 vs iPhone 14 pro | A Detailed Comparison</p>
         </div>
         </div>
-        <button style="background-color: #0066a9; color: white; padding: 1% 3%;  margin-left: 40%; margin: auto; margin-top: 25%; border-radius: 5px; "> View All Blogs </button>
        </div>
      </div>
+</section>
+
+<section >
+  <button class="section12-btn" > View All Blogs </button>
+
 </section>
     </main>
     <footer class=" text-white text-center text-lg-start" style="background-color:#353332;; margin-top: 80px; ">

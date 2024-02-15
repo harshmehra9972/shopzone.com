@@ -1,0 +1,604 @@
+
+body{
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    margin: auto;
+  }
+  
+  a
+  {
+    text-decoration: none;
+  }
+  header
+  {
+      background: #fff;
+      box-shadow: 3px 3px 12px #22222214;
+      position: relative;
+       text-align: center;
+  }
+  
+  header ul
+  {
+    text-align: center;
+    list-style: none;
+    display: flex;
+  justify-content: space-between;
+  }
+  
+  
+  
+  header li{
+    text-decoration: none;
+  }
+  
+  header
+  {
+    text-align: center;
+    
+  }
+  @media (max-width: 768px)
+  {
+      
+  #header ul {
+      grid-template-columns: 100%;
+  }
+  }
+  
+  
+  .search{
+    height: 30px; width:301px;
+    font-family: sans-serif;
+    padding: 0px 31px;
+    background-color: transparent;
+    border-style: none;
+  
+  }
+  .card
+  {
+    border-radius: 10px;
+    box-shadow: 0px 7px 7px rgb(234, 198, 198);
+    font-family: sans-serif;
+  }
+  .card:hover{
+    box-shadow: 0px 5px 5px 1px rgb(229, 149, 149);
+  }
+  .card-img-top
+  {
+    width: 4rem;
+    padding: 0.5rem;
+    
+  }
+  .card-img-top1
+  {
+    width: 3rem;
+    padding: 1rem;
+    
+  }
+  .card-img-top4
+  {
+    width: 5rem;
+    
+    
+  }
+  .card1
+  {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 7px 7px rgb(234, 198, 198);
+    font-family: sans-serif;
+    background-color: white;
+  }
+  .card1:hover{
+    box-shadow: 0px 5px 5px 1px rgb(246, 164, 164);
+  }
+  .card-img-top2
+  {
+    width: 40%;
+    object-fit: contain;
+    
+  }
+  .card3
+  {
+  text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 7px 7px 3px rgb(234, 198, 198);
+    font-family: sans-serif;
+  }
+  .card3:hover{
+    box-shadow: 0px 5px 5px 1px rgb(229, 149, 149);
+  }
+  .card-text
+  {
+    font: 20px;
+  }
+  
+  .section1
+  {
+    display: flex; 
+    justify-content: center; 
+  margin: auto;
+    gap: 7px;
+    margin-left: 1.3rem;
+  }
+  
+  
+  .reson
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+  .questions-li
+  {
+    list-style: none;
+  }
+  .card-img
+  {
+    margin: auto;
+    width: 215px;
+    height: 72px;
+    object-fit: contain;
+  }
+  .card-img{
+    width: 157px;
+  }
+  
+  .card-img-topp
+  {
+    width: 62%;
+      margin-left: 12%;
+    object-fit: contain;
+  }
+  .card-text3
+  {
+    font-family: serif;
+      font-size: 23px;
+  }
+  .a1{
+    margin-right: 47px;
+      /* margin-bottom: 2%; */
+      margin-top: -15px;
+      color: #687c89;
+  }
+  .a2
+  {
+    font-size: 110%;
+  }.card-img-topw
+  {
+    width: 100%;
+    object-fit: contain;
+  }
+  .header1
+  {
+    position: sticky;
+     z-index: 10000;
+      width: 100%;
+       top: 0;
+  }
+  .header1-div1
+  {
+    background-color: rgb(0, 102, 169); 
+    width: auto;
+     color: white;
+     padding: 1rem;
+  }
+  .header-div2{
+    width: 60%; margin: auto; 
+  }
+  .header-div3{
+    justify-content: space-between; 
+    display: flex;
+     flex-direction: row; 
+     width: 91%;
+      margin: auto;
+  }
+
+.header-div4{
+  width:3rem;
+}
+.header-div5{
+    padding: 0px 11px;
+     border-style: groove; 
+     border-radius: 10px;
+  }
+  .header-div6{
+    width: 80%; margin: auto;
+  }
+  .nav1
+  {
+    width: 74%; 
+    margin: auto;
+     padding: 2rem 0rem 0.2rem 0rem;
+  }
+  
+.section1-div1
+{
+    width: 80%;
+     margin: auto;
+}
+.section1-div2
+{
+
+width: 70%; margin: auto;
+}
+.section2-div1
+{
+    display: flex;
+     justify-content: center;
+       margin: auto;
+          border-radius: 10px;
+           color: rgb(22, 17, 17);
+           margin-top: 2rem;
+}
+
+.section2-div2
+{
+text-align: right;
+}
+.section2-div3
+{
+    border-right: #fff; margin-left: 2px;
+}
+
+.section2-p1
+{
+    width: 12rem;  border-radius: 4px;
+}
+.section3
+{
+    background-color: rgb(242, 242, 242);
+     text-align: center; 
+     font-family: sans-serif;
+      margin: auto;
+       height: 70vh;
+}
+.section3-div1
+{
+    width: 72%; 
+    margin: auto;
+}
+.section3-div2
+{
+padding: 3rem;
+}
+
+.section3-p1
+{
+    font-size: 2rem;
+}
+
+.section3-div3
+{
+    width: 70%;
+    margin: auto;
+     margin-bottom: 15px;
+}
+.section3-p2
+{
+    color: rgb(123, 186, 235);
+}
+.section4
+{
+    display: block; 
+     background-color:  rgb(242, 242, 242);
+      margin-top: 1%;
+}
+.section4-div1
+{
+    width:80%;
+     margin: auto;
+     padding: 4rem;
+}
+.section5
+{
+    background-color:  rgb(242, 242, 242); 
+     margin: auto;
+      margin-top: 1%;
+}
+.section5-div1
+{
+    width: 65%;
+     margin: auto;
+      padding:3rem;
+}
+.section5-div2
+{
+    font-size: 30px;
+}
+.section6
+{
+    margin: auto;
+      width: 100%;
+       text-align: center;
+        background-color:  rgb(242, 242, 242);
+         margin-top: 1%;
+}
+.section6-div1
+{
+    width: 80%;
+     margin: auto; 
+     padding: 6rem;
+}
+.section6-h1
+{
+    font-family: sans-serif;
+     width: 80%;
+}
+.section6-div2
+{
+width: 88%;
+ margin: auto;
+  margin-top: 10%;
+  margin-right: 4% ;
+
+}
+.section6-div3
+{
+display: grid; 
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.section6-div4
+{
+display: flex;
+ justify-content: center;
+}
+.section6-div5
+{
+border-right:1px solid black;
+}
+
+.section7
+{
+    margin: auto;
+     padding: 6rem;
+      width: 100%;
+       text-align: center;
+        background-color:  rgb(242, 242, 242);
+}
+.section7-h1
+{
+    font-family: sans-serif; 
+    width: 100%;
+}
+.section7-div1
+{
+width: 85%;
+ margin: auto;
+  margin-top: 5%;
+  margin-right: 4% ;
+}
+
+.section7-div2
+{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    width: 100%;
+}
+.section8
+{
+  margin: auto;
+  padding: 13%;
+   width: 100%;
+    background-color:  rgb(242, 242, 242);
+}
+.section8-div1
+{
+  display: grid;
+   grid-template-columns: 1fr 1fr ;
+}
+.student
+  {
+    color: white;
+   background-image: url(laptopimg/01.webp);
+   width: 95%;
+    height: 240px;
+    border-radius: 13px;
+    background-size: cover;
+   background-position: center;
+   object-fit: fill;
+  }
+  .student1
+  {
+    color: white;
+   background-image: url(laptopimg/2.webp);
+   width: 95%;
+    height: 240px;
+    border-radius: 13px;
+    background-size: cover;
+   background-position: center;
+   object-fit: fill;
+  }
+  .student2
+  {
+    margin-top: 20px;
+    color: white;
+   background-image: url(laptopimg/3.webp);
+   width: 95%;
+     height: 240px;
+    border-radius: 13px;
+    background-size: cover;
+   background-position: center;
+   object-fit: fill;
+  }
+  .student3
+  {
+    margin-top: 20px;
+    color: white;
+   background-image: url(laptopimg/04.webp);
+   width: 95%;
+    height: 240px;
+    border-radius: 13px;
+    background-size: cover;
+   background-position: center;
+   object-fit: fill;
+  }
+
+.section8-h2
+{
+  margin-left: 9%;
+  padding: 1rem;
+}
+.section8-button
+{
+  color: white; 
+      margin-left: 13%;
+       padding: 0.5rem 1rem 1rem;
+       background-color:  #0066a9;
+        border-radius: 10px;
+}
+
+.section9
+{
+  margin: auto;
+  padding: 6rem; 
+  width: 100%; 
+  text-align: center; 
+  background-color:  rgb(242, 242, 242);
+}
+.section9-h1{
+  font-family: sans-serif;
+   width: 100%;
+}
+.section9-div1
+{
+  width: 80%;
+   margin: auto;
+   margin-top: 10%;
+}
+.section9-div2
+{
+display: grid;
+ grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.section-10
+{
+  flex-direction: row; 
+  display: flex; 
+  padding: 9%;
+   background-color: rgb(242, 242, 242) ;
+}
+.section-10-div1
+{
+  width: 90%;
+   display: flex;
+}
+
+.section-10-div1
+{
+font-size: xxx-large; text-align: center;
+
+}
+
+.section-10-div2
+{
+  width: 25rem;
+   margin-left: 4%;  
+   border-style: none;
+
+}
+.section-10-div3
+{
+  width: 18rem;
+   margin-left: 4%;
+    border-style: none;
+     margin-top: 15px;
+
+}
+.section-11-h1 {
+  padding: 5rem; 
+  text-align: center;
+}
+.section-11{
+  width: 69%; 
+  margin: auto; 
+  padding: 2%;
+}
+
+.section12
+{
+  flex-direction: row;
+   display: flex;
+    padding: 6%
+}
+.section12-div1
+{
+  width: 100%;
+   display: flex;
+}
+.section12-div2
+{
+font-size: xxx-large;
+ text-align: center;
+}
+
+.section12-div3{
+  display: grid;
+   grid-template-columns: 1fr 1fr 1fr; 
+   gap: 1%;
+    margin-left: 13%;
+}
+.section12-div4{
+width: 98%;
+ background-color: white;
+ border-radius: 15px;
+ height: 368px;
+
+}
+.section12-btn
+{
+  background-color: #0066a9; 
+  color: white; 
+    margin: auto;
+      border-radius: 5px;
+      width: 10%;
+      height: 51px;
+      margin-left: 48%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
