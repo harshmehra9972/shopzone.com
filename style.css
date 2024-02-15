@@ -657,7 +657,13 @@ width: 14%;
    width: 100%;
 }
 
-
+.card-img-moniter
+{
+  width: 250px;
+    height: 231px;
+align-items: center;
+margin: auto;
+}
 
 
 
